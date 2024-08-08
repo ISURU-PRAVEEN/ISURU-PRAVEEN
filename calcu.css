@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+    color: black;
+    background-color: lightcoral;
+    animation-name: colour;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+
+}
+
+@keyframes colour{
+    0%{background-color: aqua;}
+    25%{background-color: blueviolet;}
+    50%{background-color: greenyellow;}
+    75%{background-color: salmon;}
+    100%{background-color: red;}
+}
+#p
+{
+    border: 1px solid black;
+    margin-top: 10%;
+    margin-right: 37%;
+    margin-left: 37%;
+    background-color: rgb(25, 118, 211);
+    border-radius: 5px;
+    padding: 5px;
+}
+tr,td
+{
+    width: 10%;
+    background-color: rgb(43, 230, 233);
+    text-align: center;
+    padding: 1%;
+    border-radius: 5px;
+}
+button
+{
+    width: 100%;
+    padding: 15%;
+    margin: 1%;
+    font-size: 150%;
+    font-weight: 600;
+    border-radius: 50%;
+    border-color:darkslategray;
+    background-color: lightslategray;
+}
+input[type="text"]
+{
+    width: 75%;
+    padding: 10%;
+    margin: 2%;
+    background-color: rgb(21, 15, 15);
+    color: rgb(255, 255, 255);
+    font-size: 150%;
+    border: 3px solid rgb(191, 235, 13);
+    border-radius: 10px;
+}
+#pravi
+{
+    background-color: orangered;
+    font-size: 18px;
+}
+button:hover
+{
+    background-color: rgb(0, 0, 0);
+    color:skyblue;
+}
+body{
+    background: linear-gradient(50deg,yellow,white);
+}
